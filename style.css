@@ -1,0 +1,566 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+html{
+    width: 1240px;
+    padding: 0 100px;
+    margin: auto;
+    font-family:'Space Grotesk', sans-serif
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    margin-bottom: 140px;
+}
+
+.heading{
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.heading_title{
+    border-radius: 7px;
+    padding: 0px 7px;
+    font-weight: 500;
+}
+
+.size40{
+    font-size: 40px;
+}
+
+.size30{
+    font-size: 30px;
+    width: fit-content;
+}
+
+.heading_description{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content-wrapper{
+    margin-top: 80px;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 40px;
+}
+
+.service-card{
+    border-radius: 45px;
+    padding: 50px;
+    width: 500px;
+    height: 210px;
+    box-shadow: 0 5px 0 0 #191A23;
+    display: flex;
+    justify-content:space-between;
+}
+
+.greenBg{
+    background-color: #B9FF66;
+}
+
+.grayBg{
+    background-color: #f3f3f3;
+}
+
+.blackBg{
+    background-color: #000;
+}
+
+.darkBg{
+    background-color: #191A23;
+}
+
+.whiteBg{
+    background-color: #fff;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image{
+    width: 210px;
+    object-fit: contain;
+}
+
+.card-info-button{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card-info-button-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.link-info-panel{
+    margin-top: 100px;
+    height: 227px;
+    padding: 60px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.link-info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.link-info-heading{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.link-info-desc{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.link-info-button{
+    border-radius: 14px;
+    width: 288px;
+    height: 28px;
+    padding: 20px 0;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+}
+
+.proposal-image{
+    width: 359px;
+    height: 395px;
+    right: 60px;
+    position: absolute;
+    right: 135px;
+}
+
+.link-cases{
+    border-radius: 45px;
+    padding: 70px 60px;
+    height: 186px;
+    display: flex;
+    align-items:center;
+    gap: 64px;
+}
+
+.link-case{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-case-desc{
+
+}
+
+.link-case-button{
+    width: 140px;
+}
+
+.link-cases-separator{
+    border: 1px solid #fff;
+    height: 186px;
+    width: 0;
+}
+
+.goals-list {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.goal-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    padding: 41px 60px;
+    height: 77px;
+    box-shadow: 0 5px 0 0 #191A23;
+}
+
+.goal-card-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.goal-card__order{
+    font-weight: 500;
+    font-size: 60px;    
+}
+
+.goal-card__text{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.goal-card__expand-button{
+    display: flex;
+    justify-self: flex-end;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    padding: 40px 35px;
+    width: 317px;
+    height: 227px;
+    box-shadow: 0 5px 0 0 #191A23;
+    background: #fff;
+}
+
+.team-card-header{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.team-card-photo{
+    width: 106px;
+    height: 103px;
+    align-items:left;
+}
+
+.team-name{
+    width: 110px;
+    height: 26px;
+    font-weight: 500;
+    align-items:center;
+}
+
+.team-card-desc{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.team-separator{
+    border: 1px solid black;
+    height: 0;
+}
+
+.team-logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.black-button-team{                                         
+    border-radius: 14px;
+    padding: 20px 35px;
+    width: 269px;
+    height: 28px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.contact-us-wrapper{
+    border-radius: 45px;
+    padding: 60px 100px;
+    position: relative;
+}
+
+.contact-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 556px;
+}
+
+.form-inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    border: 1px solid #000;
+    border-radius: 14px;
+    padding: 18px 30px;
+    width: 496px;
+    height: 13px;
+}
+
+.message{
+    height: 154px;
+    resize: none;
+}
+
+.form-button{
+    width: auto;
+    height: auto;
+}
+
+.contact-us-bg-image{
+    position: absolute;
+    top: 25px;
+    right: -310px;  
+}
+
+.footer{
+    border-radius: 45px 45px 0 0;
+    padding: 55px 60px;
+    height: 405px;
+}
+
+.footer-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-nav li{
+    list-style: none;
+}
+
+.footer-nav a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.heading-social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.social-media-image{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-contacts-header{
+    font-weight: 500;
+    font-size: 20px;
+    width: fit-content;
+    padding: 0 7px;
+    border-radius: 7px;
+    color: #000;
+}
+
+.contacts{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-inputs-wrapper{
+    display: flex;
+    gap: 20px;
+    border-radius: 14px;
+    padding: 58px 40px;
+    width: 564px;
+    height: 68px;
+    background-color: #292a32;;
+}
+
+.footer-form-input{
+    border: 1px solid #fff;
+    border-radius: 14px;
+    padding: 22px 35px;
+    width: 215px;
+    height: 22px;
+
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-form-button{
+    border-radius: 14px;
+    padding: 20px 35px;
+    width: 249px;
+    height: 68px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #000;
+}
+
+.footer-separator{
+    border: 1px solid white;
+    height: 0;
+}
+
+.footer-copyright{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-copyright a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+}
+
+header{
+    padding-top: 60px;
+}
+
+.header-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    height: 56px;
+}
+
+.header-button-block{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav{
+    display:flex;
+    gap: 40px;
+}
+   
+.header-nav a{
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color:#000;
+}
+
+.header-nav li{
+    list-style: none;
+}
+
+.white-button-quote{
+    border: 1px solid #191A23;
+    border-radius: 14px;
+    width: 231px;
+    height: 68px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    background: none;
+}
+
+.header-navigating{
+    width: 531px;
+    font-weight: 500;
+    font-size: 60px;
+    color: black;
+}
+
+.header-navigating-text{
+    width: 498px;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 35px 0;
+}
+
+.black-button-booking{
+    background: black;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 20px 35px;
+    width: 264px;
+    height: 68px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.header-illustration{
+    width: 601px;
+    height: 515px;
+}
+
+.content-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-scroll{
+    filter: grayscale(100%);
+    margin-top: 70px;
+    margin-bottom: 140px;
+    width: 1240px;
+    height: 48p;
+    display: flex;
+    justify-content: space-between;
+}
